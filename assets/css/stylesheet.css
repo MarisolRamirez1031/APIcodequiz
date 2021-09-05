@@ -2,4 +2,11 @@
     background-color: lightgray
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* Navbar styling starts */
+.navbar {
+    height: 65px;
+}
+
+.navbar-title {
+    font-size: larger;
+}

@@ -7,16 +7,27 @@
     <title>Coding Quiz!</title>
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Highscore/Time -->
+    <!-- Navbar Highscore/Time -->
+
     <header>
-        <div id="highscore"><i class="fas fa-medal"></i>View High Scores</div>
-        <div><i class="fas fa-stopwatch"></i>Time </div>
+        <nav class="navbar navbar-dark bg-dark text-light d-flex justify-content-between">
+            <a href="#" id="highscore"><i class="fas fa-medal"></i>View High Scores</a>
+            <div class="justify-content-center">
+                <span class="navbar-title">
+                    Coding Quiz!
+                </span>
+            </div>
+            <span id="time"><i class="fas fa-stopwatch"></i>Time</span>
+        </nav>
     </header>
 
     <main></main>
 
 
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

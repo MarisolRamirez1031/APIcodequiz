@@ -1,12 +1,27 @@
 :root {
-    background-color: lightgray
+    background-color: lightslategrey
 }
 
 /* Navbar styling starts */
 .navbar {
-    height: 65px;
+    height: 85px;
 }
 
 .navbar-title {
-    font-size: larger;
+    font-size: xx-large;
 }
+
+/* main div styling */
+
+#initialDivContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#startBtn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+

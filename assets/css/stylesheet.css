@@ -16,8 +16,8 @@ footer {
 
 button {
     border: none;
-    background-color: purple;
-    color: rgb(6, 241, 241);
+    background-color: #c002c0;
+    color: #06F1F1;
     height: 30px;
     padding: 5px 30px;
     min-width: 200px;
@@ -42,6 +42,7 @@ button {
 /* initial div styling */
 
 #initialDivContainer {
+    text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -89,9 +90,19 @@ ul {
 
   /* highscore ranking styling */
 
-  .centerHighscore {
+  #centerHighscore {
+      text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+  }
+
+  input {
+    height: 35px;
+    width: 100%;
+    padding: 4px;
+    margin-top: 15px;
+    border: solid 2px black;
+    border-radius: 0%;
   }

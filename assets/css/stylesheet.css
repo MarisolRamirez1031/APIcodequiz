@@ -2,6 +2,14 @@
     background-color: lightslategrey
 }
 
+h1, h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
 /* Navbar styling starts */
 .navbar {
     height: 85px;
@@ -11,7 +19,7 @@
     font-size: xx-large;
 }
 
-/* main div styling */
+/* initial div styling */
 
 #initialDivContainer {
     display: flex;
@@ -21,7 +29,34 @@
 }
 
 #startBtn {
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 
+.initialMessage {
+    text-align: center;
+    display: flex;
+    border: solid black;
+    padding: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* challenge div styling */
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  li {
+    text-align: center; 
+    border: solid, black;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 40%;
+    line-height: 1.5
+  }

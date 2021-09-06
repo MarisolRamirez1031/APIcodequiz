@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/pulse/bootstrap.min.css" integrity="sha384-L7+YG8QLqGvxQGffJ6utDKFwmGwtLcCjtwvonVZR/Ba2VzhpMwBz51GaXnUsuYbj" crossorigin="anonymous">
+
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>
 
@@ -20,29 +23,51 @@
         <nav class="navbar navbar-dark bg-dark text-light d-flex justify-content-between">
             <a href="#" id="highscore"><i class="fas fa-medal"></i>View High Scores</a>
             <div class="justify-content-center">
-                <span class="navbar-title">
+                <h1 class="navbar-title">
                     Coding Quiz!
-                </span>
+                </h1>
             </div>
             <span id="time"><i class="fas fa-stopwatch"></i>Time</span>
         </nav>
     </header>
 
     <main>
-        <div id="initialDiv" class="flex-positioning">
+        <div id="initialDiv" class="firstPosition">
             <div id="initialDivContainer">
                 <br>
-                <h1>Coding Quiz Challenge</h1>
+                <h2>Coding Quiz Challenge</h2>
                 <br>
-                <p> You will have two minuets to complete the quiz, once you select your answer you will be taken directly to the next question.
+                <p class="initialMessage">You will have two minuets to complete the quiz, once you select your answer you will be taken directly to the next question.
                     If you answer incorrectly 15 seconds will be deducted from the clock, the challenge is over when the timer reaches 0 or when all 
                     questions have been answered. You will be able to save your initials and score at the end of the game. Click "Start Quiz" whenever you're ready,
                     best of luck!
                 </p>
+                <br>
                 <button id="startBtn">Start Quiz</button>
             </div>
         </div>
+
+        <div id="challengeDiv" class="hidePosition">
+            <h2 id="qstn">Question</h2>
+            <ul>
+                <li><button id="aAns">answer</button></li>
+                <li><button id="bAns">answer</button></li>
+                <li><button id="cAns">answer</button></li>
+                <li><button id="dAns">answer</button></li>
+            </ul>
+        </div>
+
+        <div id="highscoreRankingsDiv" class="hidePosition">
+            <h1>Enter your initials</h1>
+            <form id="playersInitials">
+                <input type="text" placeholder="Enter Your Initials" id="usersInitialInput">
+            </form>
+        </div>
     </main>
+
+    <footer>
+        <h3>Made by Marisol Ramirez 🌻</h3>
+    </footer>
 
 
 

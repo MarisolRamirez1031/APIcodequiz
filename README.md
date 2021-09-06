@@ -44,4 +44,4 @@ THEN I can save my initials and score.
 Here is a snapshot of the website:
 * js files have not been started yet.
 
-![alt="site"](./assets/images/Screen Shot 2021-09-05 at 23.52.05.png)
+![alt="site"](./assets/images/codequiz.png)

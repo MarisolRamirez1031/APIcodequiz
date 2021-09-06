@@ -36,8 +36,10 @@ WHEN the game is over
 THEN I can save my initials and score.
 
 ## Link to Github Repository
+https://github.com/MarisolRamirez1031/APIcodequiz
 
 ## Link to Deployed Application
+https://marisolramirez1031.github.io/APIcodequiz/
 
 ## Screenshot
 
